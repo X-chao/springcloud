@@ -12,6 +12,7 @@ public class DeptConsumerController {
     @Autowired
     private RestTemplate template;
 
+//    这里配置生产者的端口信息
     private static final String REST_URL_PREFIX = "http://localhost:8001";
 
     @RequestMapping("/consumer/dept/get/{id}")
